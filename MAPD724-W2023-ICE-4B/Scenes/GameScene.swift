@@ -23,7 +23,7 @@ class GameScene: SKScene
         
         // add the second ocean to the scene
         ocean2 = Ocean()
-        ocean2?.position.y = -627
+        ocean2?.position.x = -627
         addChild(ocean2!)
         
         // add the player to the Scene
@@ -34,8 +34,8 @@ class GameScene: SKScene
         island = Island()
         addChild(island!)
         
-        // add 3 clouds to the Scene
-        for _ in 0...2
+        // add 3 clouds to the Scene <----------changed to 2 clouds
+        for _ in 0...1
         {
             let cloud = Cloud()
             clouds.append(cloud)
