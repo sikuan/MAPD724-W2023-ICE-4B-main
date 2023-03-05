@@ -6,7 +6,8 @@ class Ocean : GameObject
     // constructor / initializer
     init()
     {
-        super.init(imageString: "ocean", initialScale: 2.0)
+        super.init(imageString: "ocean", initialScale: 2)
+        self.zRotation = .pi / 2
         Start()
     }
     
@@ -18,7 +19,6 @@ class Ocean : GameObject
     {
         zPosition = Layer.ocean.rawValue
         horizontalSpeed = 5.0
-        
     }
     
     override func Update()
@@ -29,7 +29,7 @@ class Ocean : GameObject
     
     override func CheckBounds()
     {
-        if(position.y <= -2253)
+        if(position.x <= -2253)
         {
             Reset()
         }
@@ -37,11 +37,11 @@ class Ocean : GameObject
     
     override func Reset()
     {
-        position.y = 2253
+        position.x = 2253
     }
     
     func Move()
     {
-        position.y -= horizontalSpeed!
+        position.x -= horizontalSpeed!
     }
 }
