@@ -37,7 +37,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5lm-X3-RjI">
-                                <rect key="frame" x="20" y="215" width="390" height="191"/>
+                                <rect key="frame" x="20" y="652" width="390" height="191"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="191" id="AEU-3P-OvT"/>
                                 </constraints>
@@ -48,7 +48,7 @@ Mail Pilot</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VxX-nt-gIZ">
-                                <rect key="frame" x="142" y="445" width="150" height="65"/>
+                                <rect key="frame" x="142" y="832" width="150" height="65"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Start">
                                     <fontDescription key="titleFontDescription" name="Dock51" family="Dock 51" pointSize="48"/>
@@ -59,7 +59,7 @@ Mail Pilot</string>
                                 </connections>
                             </button>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Game Over" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6m0-4P-0lY">
-                                <rect key="frame" x="20" y="215" width="390" height="191"/>
+                                <rect key="frame" x="20" y="652" width="390" height="191"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="191" id="LAq-42-HOY"/>
                                 </constraints>
@@ -68,7 +68,7 @@ Mail Pilot</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hae-Fw-cg7">
-                                <rect key="frame" x="116" y="445" width="202" height="65"/>
+                                <rect key="frame" x="116" y="832" width="202" height="65"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Restart">
                                     <fontDescription key="titleFontDescription" name="Dock51" family="Dock 51" pointSize="48"/>
@@ -82,8 +82,8 @@ Mail Pilot</string>
                         <viewLayoutGuide key="safeArea" id="4qk-I5-YsI"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="4qk-I5-YsI" firstAttribute="bottom" secondItem="VxX-nt-gIZ" secondAttribute="bottom" constant="388" id="0DY-Sf-E8f"/>
-                            <constraint firstItem="VxX-nt-gIZ" firstAttribute="top" secondItem="5lm-X3-RjI" secondAttribute="bottom" constant="39" id="0lG-lU-0Sh"/>
+                            <constraint firstItem="4qk-I5-YsI" firstAttribute="bottom" secondItem="VxX-nt-gIZ" secondAttribute="bottom" constant="1" id="0DY-Sf-E8f"/>
+                            <constraint firstItem="VxX-nt-gIZ" firstAttribute="top" secondItem="5lm-X3-RjI" secondAttribute="bottom" constant="-11" id="0lG-lU-0Sh"/>
                             <constraint firstItem="f3O-ZU-SGm" firstAttribute="baseline" secondItem="y6A-qK-mBf" secondAttribute="baseline" id="4Ix-wI-AX9"/>
                             <constraint firstItem="6m0-4P-0lY" firstAttribute="trailing" secondItem="5lm-X3-RjI" secondAttribute="trailing" id="IW2-6x-Jbu"/>
                             <constraint firstItem="f3O-ZU-SGm" firstAttribute="leading" secondItem="5lm-X3-RjI" secondAttribute="leading" id="KQK-Ef-iKf"/>
