@@ -29,13 +29,13 @@ class Player : GameObject
     
     override func CheckBounds()
     {
-        // constrain the player on the left boundary
+        // constrain the player on the left boundary <---- changed to y axis
         if(position.y <= -255)
         {
             position.y = -255
         }
         
-        // constrain the player on the right boundary
+        // constrain the player on the right boundary <---- changed to y axis
         if(position.y >= 255)
         {
             position.y = 255

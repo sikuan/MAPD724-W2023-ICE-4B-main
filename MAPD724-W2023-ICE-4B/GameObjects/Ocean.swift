@@ -29,7 +29,7 @@ class Ocean : GameObject
     
     override func CheckBounds()
     {
-        if(position.x <= -2253)
+        if(position.x <= -2253) //<---- changed to x axis
         {
             Reset()
         }

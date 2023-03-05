@@ -32,7 +32,7 @@ class Cloud : GameObject
     
     override func CheckBounds()
     {
-        if(position.x <= -926)
+        if(position.x <= -926)  //<---- changed to x axis
         {
             Reset()
         }
@@ -40,6 +40,7 @@ class Cloud : GameObject
     
     override func Reset()
     {
+       
         // randomize the vertical speed: 4 to 2
         verticalSpeed = CGFloat((randomSource?.nextUniform())! * 4.0) - 2.0
         
